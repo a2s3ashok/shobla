@@ -1,0 +1,44 @@
+<style type="text/css">s
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		.wraper{
+			background: url(we.jpg) no-repeat;
+			background-size: cover;
+			height: 100vh;
+		}
+		.navbar{
+			height: 80px;
+			width: 100%;
+			background: white;
+		}
+		.logo{
+			width: 115px;
+			height: auto;
+			padding: 5px 100px;
+		}
+		.navbar ul{
+			float: right;
+			margin-right: 20px; 
+		}
+		.navbar ul li{
+			list-style-type: none;
+			margin: 0 8px;
+			display: inline-block;
+			line-height: 80px;
+		}
+		.navbar ul li a{
+			text-decoration: none;
+			color: purple;
+			font-size: 20px;
+			padding: 6px 13px; 
+			font-family: 'Roboto', sans-serif;
+			transition: .4s;
+		}
+		.navbar ul li a.active,
+		.navbar ul li a:hover{
+			background: yellow;
+			border-radius: 2px;
+		}
+	</style>

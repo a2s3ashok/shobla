@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shobla</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+		}
+		.navbar{
+			height: 80px;
+			width: 100%;
+			background: white;
+		}
+		.logo{
+			width: 115px;
+			height: auto;
+			padding: 5px 100px;
+		}
+		.navbar ul{
+			float: right;
+			margin-right: 20px; 
+		}
+		.navbar ul li{
+			list-style-type: none;
+			margin: 0 8px;
+			display: inline-block;
+			line-height: 80px;
+		}
+		.navbar ul li a{
+			text-decoration: none;
+			color: #242751;
+			font-size: 20px;
+			padding: 6px 13px; 
+			font-family: 'Roboto', sans-serif;
+			transition: .4s;
+		}
+		.navbar ul li a.active,
+		.navbar ul li a:hover{
+			background: #edb83a;
+			border-radius: 7px;
+		}
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		.container{
+			position: absolute;
+			left: 48%;
+			top: 45%;
+			transform: translate(-50%,-50%);
+			padding:10px;
+		}
+		input{
+			height: 60px;
+			width: 0px;
+			outline: none;
+			padding:0 20px;
+			color: black;
+			font-size: 20px;
+			box-sizing:border-box;
+			border:1px solid #50000;
+			border-radius: 50px; 
+		}
+		::placeholder{
+			color: grey;
+
+		}
+		.btn{
+			position: absolute;
+			right: 0;
+			top: 0;
+			background: #d50000;
+			line-height: 80px;
+			height: 80px;
+			width: 80px;
+			text-align: center;
+			border-radius: 50%;
+			cursor: pointer;
+		}
+		.btn i{
+			font-size: 25px;
+			line-height: 80px;
+			color: white;
+			transition: all .7s ease;
+		}
+		.container:hover input{
+			width: 350px;
+		}
+		.container:hover i{
+			transform: rotate(-350deg);
+		}
+	</style>
+	<meta charset="<utf-8>">
+		<link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<body>
+	<div>    <!-- main div page start -->
+		<div>  <!-- header start -->
+
+
+
+			<div class="container" >
+				<input type="text" placeholder="search" >
+			<div class="btn" >
+				<i class="fas fa-search"></i>
+			</div>
+			</div>
+
+
+
+			<div style="float: left; width: 30%"><img style="width: 55%; padding-left: 15%; padding-top: 2%;padding-bottom: 2%;" src="logo.png"></div>
+			<div style="float: left; width: 70%">
+				<nav class="navbar">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Hotel</a></li>
+						<li><a href="#">Cottage</a></li>
+						<li><a href="#">Attractions</a></li>
+						<li><a href="#">Gallary</a></li>
+						<li><a class="active">Quick Pay</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div> <!--  header end -->
+
+		<div>
+			<img width="100%" src="we.jpg">
+		</div>
+		  <!-- 2nd div start -->
+		<div style="margin-left: 3%; margin-right: 3%; margin-top: 3%; margin-bottom: 3%; letter-spacing: 1px; text-align: justify; line-height: 20px; height: 500px; color: grey; ">              
+
+			<div style="float: left; width: 70%; height: 500px;">
+				<p><b style="color: black;" >Hotel Shobla Royale (Kullu) </b>is located in the heart of the city right next to the famous Dussehra ground. It boasts of a total of 36 rooms divided into Deluxe, Executive and Suite Rooms with an In-house Multiplex, Multi-Cuisine Restaurant, Matala - The Bar, Domino’s Pizza outlet, Elevator, Games Room and Ample Parking space within the complex. All rooms are newly renovated and refurbished with all modern amenities. An ideal stopover for solo travellers, couples, friends and families looking to explore the Kullu valley. Kullu is known as the "Valley Of Gods" or " Dev Bhoomi " due to its deeply rooted rich traditions and cultural values. </p><br>
+                 
+				<p><b style="color: black;" >Shobla Kaathkuni Royale (Kullu)</b> is a wooden masterpiece which seamlessly blends local architecture with the modern amenities and furnishings. ‘Kaathkuni’ is a term given to the local architectural design which involves interlocking of wood and stones. The mud plastered walls further enhances the room ambiance as well as keeps the room naturally insulated. The detailed and intricate carving on wood is a delight to watch in this modern era and shall only remind you of the good old days. The cottages has valley facing rooms with private balcony on the first floor and the ground floor rooms are attached to the garden area. 
+				<br></p>
+				<br>
+				<p><b style="color: black;" >Shobla Pine Royale (Manali)</b> is a luxurious retreat nestled in Old Manali (5 kms from main the mall road market and 2 kms from Old Manali market). We offer a boutique stay overlooking the mighty river Beas. Luxurious and spacious wooden panelled rooms come with a private balcony and other modern amenities ensuring a comfortable stay for all. Panoramic view of the snow-capped mountains and waterfall from every room will leave you mesmerized. One can walk around the apple orchards or walk down to the river bed and unwind in the lap of nature. Shobla Pine Royale is an ideal pick for spending a peaceful vacation and having a quality time in the Himalayas away from the hustle and bustle of the city life. <br></p>
+			</div>
+			<div style="float: left; width: 27%; height: 500px; margin-left: 2px;">
+				<img width="100%" src="we.jpg">
+			</div>
+		</div>
+			<!-- 2nd div end -->
+
+			<!-- 3rd div start -->
+			<div style="margin: 3% 3% 3% 3%; height: 500px; background-color: green; ">
+				<div style="background-color: white; height: 500px;padding-right: 2%; float: left; width: 48%;"><h5 style="color: #edb83a; margin-block-start: 2.33em;
+  					  margin-block-end: 2.33em; font-size: 15px; font-family: arial;" >CHECK-IN TO LUXURY</h5>
+<h1 style="font-size: 60px; color: #242751;line-height: 70px; font-weight: 900;letter-spacing: 1px;">LETS CREATE</h1>
+<h1  style="font-size: 60px;color: #242751;margin:0px 0px 15px 0px; font-size: 60px;line-height: 70px;font-weight: 900;letter-spacing: 0px;">MEMORIES</h1>
+<br>
+<p style="text-align: justify;font-size: 15px; line-height: 26px; font-weight: 900;letter-spacing: 1px;margin: 0px 0px 15px 0px; color: #242751;" ><b>Revel in the luxury of our hotel & cottages and bask in the glory of the mighty Himalayas; leaving with a heart filled with bliss and precious memories.</b></p>
+
+
+<br>
+<p style="text-align: justify; color: grey;" >With a range of rooms to choose from and numerous amenities to make your stay more comfortable, we at Shobla Royale Hotel & Cottages believe in walking an extra mile ensuring that you have a delightful vacation.</p></div>
+				<div style="background-color: red; height: 548px; float: left; width: 50%;">
+					<img width="100%" src="kullu.jpg">
+				</div>
+			</div>
+			<!-- 3rds div end -->
+
+				<!-- 4th div start -->
+				<div style="width: 100%;height: 600px;shape-margin:1%;  " ><img width="100%" src="fourth.png">
+
+				</div>	
+				<!-- 4th div end -->
+
+				<!-- 5th div start -->
+				<div style="height: 500px; padding-top:80px; padding-bottom:70px;margin-top:80px; background-color:white;">
+
+					<div style="height: 100px; color:#242751;background-color: white; font-size: 50px;font-family:sans-serif; " >
+						<h3><center>OUR COTTAGES</center></h3></div>
+						<div style="width: 31.7%; text-align: justify;color: #242751; float: right; height: 400px;padding: 0% 0% 0% 0%;margin: 1%;float: left;background-color: white;">
+							<h4>HERITAGE LUXURY LIVING</h4>
+							<br>
+							<p style="text-align: justify;font-size: 15px; line-height: 26px; font-weight: 900;margin: 0px 0px 15px 0px; color: #9A9BA5;" >Our supreme luxury cottages will give you a boutique experience with a wooden charm and modern amenities.</p>
+							<br>
+					    	<p style="text-align: justify;font-size: 15px; line-height: 26px; font-weight: 900;margin: 0px 0px 15px 0px; color:  #9A9BA5;" >
+						    We are situated in two of the most sought after locations i.e. Kullu and Manali. You can book the entire cottage for family and friends or book individual rooms as well. We have a manager, kitchen and housekeeping staff available at all times to ensure that you have a comfortable stay.</p>
+						    <h6><b style="text-align: justify;font-size: 15px; line-height: 26px; font-weight: 900;margin: 0px 0px 15px 0px; color: #242751;" >Stay with us for a sweet and a memorable getaway!</b></h6></div>
+							<div style="width: 31.7%;float: right; height: 300px;padding: 5% 0% 1% 0%;margin: 5% 0% 9\0% 1%; float: left; background-color: white;" >
+								<img weidth="70%" src="po.jpg">
+							</div>
+							<div  style="width: 31%;float: right; height: 300px;padding: 5% 0% 0% 0%;margin:  0% 0% 0% 0%;float left; background-color:white;" >
+								<img weidth="70%" src="op.jpg"></div>
+				</div>
+				<!-- 5th div end -->
+
+						<!-- 6th div start -->
+					  	<div style="height: 500px; padding-top:80px; padding-bottom:80px;margin-top:0px; background-color: black; ;" >
+					  		
+					  		<div style=" width: 22%; float: right; height: 380px;padding: 4% 0% 0% 0%;margin: 1%;float: left;background-color: black;">
+					  			<img width="100%" src="bhagi.jpg">
+
+					  		</div>
+
+					  		<div style="width:22%;float: right; height: 380px;padding: 4% 0% 0% 0%;margin: 1% 0% 0% 0%;float: left;background-color: black;" >
+					  			<img width="100%" src="Thappad.jpg">
+					  		
+					  		</div>
+
+					  		<div style="width: 42%; text-align: justify;font-size: 15px; color:white; float: right; height: 380px;padding: 1% 5% 5% 5%;margin: 1%;float: left;background-color: black;line-height: 26px;" >
+
+					  			<p style="color:#edb83a;font-size: 15px;text-align: justify;margin: 1%; "> WATCH A MOVIE</p>
+
+								<h2 style="color: white;font-size: 50px; font-weight: 600px; font-family: sans-serif; padding: 5% 0% 15% 0%;" >
+								NOW SHOWING </h2>
+
+								<p style="color:grey;text-align: justify;font-weight:400px; font-size: 15px; line-height: 26px; " ><b style="color: white;">Baaghi 3:</b><b> Ronnie goes on a rampage of destruction to see his brother safe again, even if it means that he independently has to take on an entire country.</b></p>
+
+								<br>
+
+								<h5 style="color:242751;text-align: justify;font-weight:600px; font-size: 15px; line-height: 26px;" ><b style="color: #edb83a;font-size: 15px;">Show timings (Audi - I):</b style="color: #edb83a;font-size: 15px;" > 11:00 AM <b style="color: #edb83a;font-size: 15px;">|</b style="color: #edb83a" > 02:00 PM <b style="color: #edb83a" >|</b> 05:00 PM <b style="color: #edb83a" >|</b> 08:00 PM</h5>
+								
+								<h5  ><b style="color:#edb83a;text-align: justify;font-size: 15px;line-height: 26px; font-weight: 900; ">Show timings (Audi - II):</b> 12:00 AM <b style="color: #edb83a ;font-size: 15px;">|</b> 03:00 PM <b style="color: #edb83a; font-size: 15px;"> |</b> 06:00 PM</h5>
+								<br>
+
+								<p style="color: grey;text-align: justify;letter-spacing: 2px;line-height: 26px; font-weight: 900px;" ><b>Thappad: A woman reevaluates her marriage after her husband slaps her in the face in front of a group of people at a party.</b></p>
+
+								<b style="color:#edb83a;text-align: justify;letter-spacing: 2px;line-height: 26px; font-weight: 900;" >Show timings (Audi - II):</b> 8:45 PM</div>
+
+					  	</div>
+					  	<!-- 6th div end -->
+					  	<!-- 7th div start -->
+					  	<div style="background-color:#edb83a;height: 500px;padding-top:80px; padding-bottom:80px;margin-top:0px; "  >
+					  		
+					  		<h1 style="font-size: 60px;font-weight: 600px;font-family: sans-serif;padding:0% 0% 0% 0%; margin: 0% 0% 10% 0%;" ><center>TESTIMONIALS</center></h1>
+
+					  		<center><p style="font-size: 17px;font-family: sans-serif;text-align: justify;padding: 15% 5% 0% 15%;" >Shobla Royale - Hotel & Cottage is located in the heart of the city of Kullu right next to the famous Dussehra ground. It boasts of a total of 36 rooms divided into Deluxe rooms, Executive Rooms and Suite Rooms with an In House Multiplex , Multi-Cuisine Restaurant, Bar, Domino’s Pizza outlet, Guest Elevator, Games Room equipped with snooker table , Table tennis & Carom Board and Ample Parking space within the complex. All rooms are newly renovated and refurbished with all modern amenities. Your Himalayan Odyssey Awaits you .</p></center>
+
+					  	</div>	
+					  	<!-- 7th div end -->
+	</div>  <!--  main div page end -->
+	
+</div> 	
+</body> 
+</html>
